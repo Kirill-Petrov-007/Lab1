@@ -9,7 +9,8 @@ public class PerfectNumber {
 			if(Number % i == 0)  {
 				Sum = Sum + i;
 			}	
-		}			
+		}
+		 System.out.println("Summa ir " + Sum);
 		return Sum;
 	}
 		public static int met2(int Sum,int Number) {
